@@ -1,0 +1,49 @@
+contexto:dessarollae un sistema web en donde exista un inicio de sesion registro el sistema consiste en lo siguinete el usuario se registra iniciu de sesion y puede compartir notas textos y pensamientos o ideas) tambien pueden visualizar los pensamientos textos y demas de otras personas dependiendo, cuando se escriba se tendra que seleccionoar que tipo es en l apagina nodonde se muestra todads las notas de tus amigos tendra formas diferentes dependientos el tipo de nota :
+si es texto se vera en una forma cuadrada 
+si es sueño el texto estara dentro de uan nube
+si es idea dento de un obalo 
+
+en cad nota se vera el nombre del usuario que lo escribio, la fecha en que lo escribio y la fecha en que se eliminara solo duran 24hrs(se escribio en viernes a las 2:00pm  se borrara el sabado 2:00pm), la pagina de notas de amigos tendra un flitro donde se vera solo las notas del amifgo que escojas, si notas que falta algun boton o funcio agregala 
+
+
+
+solo pueden acceder a la primer ventan los usuarios sin iniciar sesion todo lo demas es para despues de iniciar sesion
+
+los usuarios podren crear mas de una nota   y todos los usuarios pueden ver la notas de todos, pero solo el creador puede modificar o eliminar  sus notas,             
+
+stack tecnologico : vamos a trabajr con laravel 13, utlizando  arquitectura mvc,php 8.4 y base de datos en sqlite, haz las funciones que haria un starting kit (que da inicio de sesion y un autenticador)
+
+vamos a trabajr solamente en app.css app.js y con plantillas blade.              
+
+solicitud : generame archivo por archivo y codigo completo como este proyecto primero dime las carpetas que debo de crear y me vas a dar codigo completo dame primero las migraciones despues dame los controladores , despues dame el archivo de estilos, depsues .js , despues las paginas o vistas ¿ y por ultimo dame el codigo de la plantilla blade y las rutas tambien necesito que des una seeder con el usuario que ya han escrito diferentes tipos de notas                                                               
+
+
+
+utiliza esta paleta de colores agrega un modo claro y modo oscuro recuerda que tienes que respetar que todo texto sea visible en ambos modos, que el texto no se salga de su cuadro y el boton de iniciar sesion tiene que ser visible en todo momento( no debe de ir en lo mas bajp de la pagina ni quedarese en la parte superior) 
+
+/* CSS HEX */
+--hunter-green: #3e5641ff;
+--reddish-brown: #a24936ff;
+--spicy-paprika: #d36135ff;
+--graphite: #282b28ff;
+--muted-teal: #83bca9ff;
+
+
+
+
+
+
+fuente
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+
+
+
+toma como referenci para la interfaz la captura que te di para el inicio de sesion y para la plantilla blade necesito que la interfaz no tenga emojis , tenga estilo moderno, bordes redondeados, sin degradados , solo iconos .svg utilzar un suderbard lateral, hazme una buena interfaz y plantillas recuerda darme el codigo complto en orde la creacion de archivos y carpetas crea un inicio de sesion sencillo, sin instalar librerias extrenas, solo con el controlador crear middlewares de acceso. la base de datos debe de estar correctamente normlaizada y declarada en las migraciones, para ejecutar solamente php artisan migrate:fresh - seed
+
+
+
+
